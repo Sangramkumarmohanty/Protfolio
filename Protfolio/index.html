@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Image/icons8-portfolio-80.png" type="image/x-icon">
+    <title>Personal-Protfolio</title>
+    <script src="https://kit.fontawesome.com/bb1c9ff7cc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servies</a></li>
+                    <li><a href="#protfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hi There...</p>
+                <h1>I Am Sangram Kumar <span style="color: #ff004f;">Mohanty</span><br></h1>
+                <p style="margin-top: 15px;">I Am A Front-End Developer</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/IMG_20230413_225519-01.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>My name is Sangram Kumar Mohanty . i am from paradeep , I have currently graduate b.tech computer
+                        science engineering giet, Ghangapatna.
+                        with my overall cgpa 8.17. Along with my complete in course html,css, bootstrap,java, c,and
+                        python course and full stack web development currently pursuing .To secure a job in the IT
+                        industry where I can utilize my knowledge for the organization's growth. A detail oriented and
+                        multitasking professional with exceptional coding techniques having bachelor of engineering
+                        degree in computer science technology.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming Language</span><br>Core Java</li>
+                            <li><span>Fontend Web Development</span><br>HTML5,CSS3,BOOTSTRAP,JAVASCRIPT</li>
+                            <li><span>Database</span><br>MySql</li>
+                            <li><span>IDE</span><br>Visual Studio,Sublime Text,Eclipse,SQL Plus,My Sql Workbench</li>
+                            <li><span>MS Office</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Company Name-NextStack,Bhubaneswar</span><br>Web Development <br>Cource
+                                Duration-07/05/2021-30/07/2022</li>
+                            <li><span>Compsny Name-Software Interface Services</span><br>PHP web Development</li>
+                            <li><span> Workshop/Certification</span><br>Machine Learning and Artificial
+                                Intelligence(Using COVID-19 Data Analysis) Innovians Technologies / 2020 </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Btech,CSE,2018-2022</span><br>Gandhi Institute Of Excellent Technocrats,BBSR</li>
+                            <li><span>(+2),2016-2018</span><br>Swadhin +2 Science College,Puri</li>
+                            <li><span>(10th),2015-2016</span><br>Kalarabank High School,CTC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>We Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a fugit obcaecati sint! Nemo
+                        quasi, voluptates vitae veniam eos voluptas, est suscipit veritatis doloremque necessitatibus
+                        repellat dolores dignissimos, amet earum.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>We Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a fugit obcaecati sint! Nemo
+                        quasi, voluptates vitae veniam eos voluptas, est suscipit veritatis doloremque necessitatibus
+                        repellat dolores dignissimos, amet earum.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>We Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a fugit obcaecati sint! Nemo
+                        quasi, voluptates vitae veniam eos voluptas, est suscipit veritatis doloremque necessitatibus
+                        repellat dolores dignissimos, amet earum.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Image/Shopping pic.png" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Ecommerce Website Design</h3>
+                        <p>Thriving Facebook community and top-ranked podcast, Amy inspires a grounded
+                            , tangible and self-affirmin sense of "Wow! i really can do this" for over 100,000
+                            online entrepreneurs. Best-selling marketing courses.
+                        </p>
+                        <a href="file:///D:/Project/E-commerce%20Shopping%20Website/index.html"><i class="fa-solid fa-link"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/rishabh-malhotra-83ypHTv6J2M-unsplash.jpg" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Phone Features Website</h3>
+                        <p>"PhoneFeature.com: Your ultimate destination for comprehensive phone feature guides and
+                            reviews. Explore the latest smartphone technologies, camera capabilities, battery life
+                            insights, and much more. Make informed decisions when choosing your next mobile device with
+                            our expert analysis and comparisons."
+                        </p>
+                        <a href="file:///D:/Project/Phone%20Feature%20Web%20Site/index.html"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/pexels-antoni-shkraba-6207729.jpg" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est consequuntur quasi, similique
+                            architecto provident, debitis nisi eligendi vel neque odit tenetur facilis voluptatum
+                            numquam enim assumenda dolorem ex. Dignissimos, iusto!
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 63-7045-5113</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/KumarSangram91"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></i></a></abbr>
+                        <a href="https://www.linkedin.com/in/sangram-kumar-mohanty-1a7a8a214"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Sangramkumarmohanty"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/_kumar_sangram/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Image/SANGRAM KUMAR MOHANTY.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &#169; Sangram. <i class="fa-solid fa-heart" style="color: #e40101;"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzxBUovmXIXNp6lcExm-gKZvVn6VO8I5v6_o8n2VnaEQ7HeBq5eIEa3P3Qxw_UfxsWtHw/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
