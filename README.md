@@ -1,4 +1,4 @@
-# Protfolio
+# Portfolio
 # Project Title: Personal Portfolio Website
 
 # Description:
